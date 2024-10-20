@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+/* .jjj img{
+    width:0vw;
+    height: 70vh;
+    overflow: hidden;
+} */
+/* @media only screen and (max-width:570px) {
+    .jjj img{
+        width: 50vw;
+        height: 30vh;
+        margin-top: 50px;
+        text-align: center;
+    }
+} */

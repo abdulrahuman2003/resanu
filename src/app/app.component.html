@@ -1,0 +1,129 @@
+<!-- navbar -->
+<!-- <div class="bottom">
+<nav class="navbar bg-warning ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="../assets/pngegg.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">resturnt
+    </a>
+</div> -->
+
+  <!-- cart icon --> 
+      <!-- <div class="icon  ">
+      <button type="button" class="btn btn-tertiary position-relative ">
+        <i class="bi bi-cart-plus-fill "></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          {{count}}
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button> 
+    </div> -->
+      <!-- <button (click)="increse()">click</button> -->
+    <!-- </nav>
+  </div> -->
+
+<!-- side nav bar
+<div class="sidenavbar">
+  
+  <a routerLink="/child1" id="ma">home</a><br><br>
+  routerLink="/child1"
+  <a routerLink="/child2" id="ma">about</a><br><br>
+  <a href="" id="ma">contect</a><br><br> -->
+
+<!-- </div> -->
+<!-- home section start -->
+  <!-- <div class="child1"> -->
+    <!-- <div class="color"></div> -->
+    <!-- <router-outlet></router-outlet> -->
+    <!-- </div> -->
+
+
+
+
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/pngegg.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">restaurant
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link navhover" aria-current="page" routerLink="/child1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navhover" routerLink="/child2"> menu</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link navhover" routerLink="/child3">Event</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link navhover" routerLink="/child4" > about</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link navhover" routerLink="/child5" > contact</a>
+            </li> 
+          </ul>
+          <div class="icon ms-5 ">
+            <button type="button" class="btn btn-tertiary position-relative ">
+                 <button  routerLink="/child9" > <i class="bi bi-cart-plus-fill "></i></button>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                {{totalItem}}
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button> 
+          </div>
+        </div>
+      </div>
+      <!-- <button (click)="increse()">click</button> -->
+    </nav>
+    
+    <!-- navbar END -->
+
+    <router-outlet></router-outlet> 
+   
+    <!-- <app-child2></app-child2>
+    <app-child3></app-child3>
+    <app-child4></app-child4> -->
+    <hr>
+   <div class="container bkclour">
+    <div class="row">
+    <div class="col bkclour">
+
+      <h1>Company</h1>
+      <ul>
+        <li>About</li>
+        <li>Mission</li>
+        <li>Services</li>
+        <li>Social</li>
+        <li>Get in touch</li>
+      </ul>
+    </div>
+    
+    <div class="col">
+      <h1>Products</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Support</h1>
+    <ul>
+      <li>Contact us</li>
+      <li>Web chat</li>
+      <li>Open ticket</li>
+    </ul>
+  </div>
+  </div>
+
+  
+   
+    
+    

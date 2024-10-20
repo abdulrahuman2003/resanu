@@ -1,0 +1,31 @@
+/* home secttion */
+.homepage img{
+    /* width: 100%;
+    height: 90%; */
+    filter: drop-shadow(3px 9px 9px black);
+   
+}
+.homepage{
+    /* width: 100%; */
+    height:100%;
+    background-color: beige;
+      
+}
+.homepage h1{
+    height: 50%;
+    font-size:50px;
+}
+.homepage span{
+    color: #ffbf00;
+}
+.homepage button{
+    color:black;
+    font-weight: 500;
+}
+.imgsize{
+  margin-top: 20%;
+  width: 110%;
+}
+
+
+

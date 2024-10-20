@@ -1,0 +1,48 @@
+
+/* .sidenavbar{
+    padding-top: 100px;
+    width: 160px;
+    height: 200vh;
+    background-color:#ffc107;
+    text-align: center;
+    position: absolute;
+
+}
+.bottom{
+    border-bottom: 1px solid black;
+}
+.sidenavbar a{
+    color: black;
+}
+.icon {
+    width: 100%;
+    margin-left: 88%;
+   font-size:large;
+    margin-top:-3%;
+   
+} */
+/* child1 */
+/* .child1{
+    margin-left: 160px;
+    margin-bottom: 1000PX;
+    height: 100vh;
+}
+@media only screen and (max-width:570px) {
+    .sidenavbar{
+        width:100px
+    }
+    
+} */
+
+
+/* nav hover */
+.navhover:hover{
+    font-weight: 600;
+    
+    
+}
+.bkclour{
+    background-color:yellow;
+}
+
+
